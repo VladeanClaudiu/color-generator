@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;800&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.app-container{
+    display: grid;
+    grid-template-rows: 1fr 6fr .5fr;
+    height: 100vh;
+}
+
+.app-head{
+    background-color: #ffffff;
+    display: grid;
+    grid-template-columns: 1fr 4fr 2fr;
+    column-gap: 1em;
+    padding: 1.3em .5em 1.3em .5em;
+    margin: 0;
+}
+
+.app-head input {
+    height: 100%;
+    width: 100%;
+    border: none;
+}
+
+.app-head select{
+    border-radius: 10px;
+    border: 2px solid #D1D5DB;
+    font-size: 1.2em;
+    text-align: center;
+    font-weight: lighter;
+}
+
+.app-head button{
+    background: none;
+    border-radius: 5px;
+    border: 2px solid #D1D5DB;
+    cursor: pointer;
+}
+
+.app-body{
+    margin: 0;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.color-1{    
+    background-color: blue;
+}
+
+.color-2{ 
+    background-color: green;
+}
+
+.color-3{
+    background-color: yellow;
+}
+
+.color-4{   
+    background-color: pink;
+}
+
+.color-5{
+    background-color: white;
+}
+
+.app-footer{
+    background-color: #ffffff;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    text-align: center;
+    font-weight: normal;
+    font-variant: small-caps;
+}
+
+.color-hex{
+    text-align: center;
+    font-weight: normal;
+    font-weight: lighter;
+    cursor: pointer;
+}
+
+.color-hex:hover{
+    text-align: center;
+    font-weight: normal;
+    cursor: pointer;
+}
